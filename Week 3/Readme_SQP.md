@@ -145,6 +145,9 @@ for i in range (1,20):
 - x* result was 1.10, which when plugged into the objective function: 4.4514
 - Utilized scipy.optimize.minimize_scalar to check the result. x* was 1.08, OF result was 4.4511
 
+- Graph OF vs. DV
+
+![OF vs DV](https://github.com/ejbkdb/ENMT-4620/blob/master/Week%203/004_Objective_Function.png "OF vs DV")
 
 Image: Iterations of X, X-axis Iteration #, Y-Axis X* Value
 ![Iterations of X*](https://github.com/ejbkdb/ENMT-4620/blob/master/Week%203/003_xstar_iterate.png "Iterations of X*")
