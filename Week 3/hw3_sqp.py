@@ -54,12 +54,6 @@ for i in range (1,20):
 
     eq.insert(0,C)
 
-    def p(x,C):
-        C = np.squeeze(np.asarray(C))
-        return C[0]*x**2 + C[1]*x + C[2]
-
-
-    print(x1,x2,x3)
     xstar.insert(0,C.item(1)/2/C.item(0))
 
     x1,x2,x3 = nextguess(x1,x2,x3,xstar)
