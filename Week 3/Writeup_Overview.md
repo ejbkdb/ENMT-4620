@@ -15,3 +15,5 @@ Quadratic: No cons identified during testing. I'm sure the algorithm could get i
 
 ### Overal
 I think the golden section is a more useful algorithm as it could be coded to identify multiple local minima/maxima along an obscure function, and although this requires additional coding could be quite useful
+
+My github repository for these exercises  can be found here: https://github.com/ejbkdb/ENMT-4620/tree/master/Week%203
