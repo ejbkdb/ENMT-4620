@@ -54,12 +54,12 @@ for i in range (1,20):
 
     eq.insert(0,C)
 
-    xstar.insert(0,C.item(1)/2/C.item(0))
+    xstar.insert(0,-C.item(1)/2/C.item(0))
 
     x1,x2,x3 = nextguess(x1,x2,x3,xstar)
 
     if len(xstar) > 1:
-        if abs(obj(xstar[0]) - obj(xstar[1])) < 0.5:
+        if abs(obj(xstar[0]) - obj(xstar[1])) < 0.1:
             break
 
 
