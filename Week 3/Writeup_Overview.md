@@ -13,7 +13,7 @@ Golden Section: Need to define an area to search which means you already have to
 
 Quadratic: No cons identified during testing. I'm sure the algorithm could get itself into trouble with equations that are much more obscure then the one we were tasked with developing the algorithm for.
 
-### Overal
+### Summary
 I think the golden section is a more useful algorithm as it could be coded to identify multiple local minima/maxima along an obscure function, and although this requires additional coding could be quite useful
 
 My github repository for these exercises  can be found here: https://github.com/ejbkdb/ENMT-4620/tree/master/Week%203
