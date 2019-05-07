@@ -12,7 +12,7 @@ return 5 - x + 0.45 * x**2 -0.08**3 +0.005*x**4
 ```
 
 ### Initial Setup:
-- To initialize heuristic search you have to initialize a starting point and a st
+- To initialize heuristic search you have to initialize a starting point and a starting deltax
 ```python
 
 xbase = 30.
@@ -24,7 +24,7 @@ y=[]
 ```
 
 ### Generating new X values
-- To generate new values I followed the pseudocode referenced in class textbook. utilizing simple logic if the value is an improvement deltax is increased by 1.2 times and a new point is assigned. If the point is worse deltax X is decreased by -0.5 deltax causing the point to retreat backwards
+- To generate new values I followed the pseudocode referenced in class textbook. utilizing simple logic if the value is an improvement deltax is increased by 1.2 times and a new point is assigned. If the point is worse deltax is decreased by -0.5 deltax causing the point to retreat backwards
 
 ```python
 def xnew(xbase,deltax):
@@ -39,7 +39,7 @@ def xnew(xbase,deltax):
 ```
 
 ### Exit Condition:
-- I did not assign an exit condition for this algorithm. If I would assign an exit condition if would look at hte previous values and determine when the x value stopped improving.
+- I did not assign an exit condition for this algorithm. If I would assign an exit condition if would look at the previous values and determine when the x value stopped improving.
 
 
 
