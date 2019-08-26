@@ -1,0 +1,47 @@
+CMakeFiles/abb_libegm_samples_joint_trajectory_node.dir/src/a1_joint_trajectory_node.cpp.o: In function `google::protobuf::Arena::AllocHook(std::type_info const*, unsigned long) const':
+a1_joint_trajectory_node.cpp:(.text._ZNK6google8protobuf5Arena9AllocHookEPKSt9type_infom[_ZNK6google8protobuf5Arena9AllocHookEPKSt9type_infom]+0x3d): undefined reference to `google::protobuf::Arena::OnArenaAllocation(std::type_info const*, unsigned long) const'
+CMakeFiles/abb_libegm_samples_joint_trajectory_node.dir/src/a1_joint_trajectory_node.cpp.o: In function `google::protobuf::RepeatedField<double>::Reserve(int)':
+a1_joint_trajectory_node.cpp:(.text._ZN6google8protobuf13RepeatedFieldIdE7ReserveEi[_ZN6google8protobuf13RepeatedFieldIdE7ReserveEi]+0x359): undefined reference to `google::protobuf::internal::ArenaImpl::AllocateAligned(unsigned long)'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(unsigned long, void (*)(void*))'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::io::CodedInputStream::DecrementRecursionDepthAndPopLimit(int)'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::internal::AssignDescriptors(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, google::protobuf::internal::MigrationSchema const*, google::protobuf::Message const* const*, unsigned int const*, google::protobuf::Metadata*, google::protobuf::EnumDescriptor const**, google::protobuf::ServiceDescriptor const**)'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::io::CodedInputStream::ReadVarint64Fallback()'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::UnknownFieldSet::default_instance()'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::io::CodedInputStream::IncrementRecursionDepthAndPushLimit(int)'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::internal::DestroyMessage(void const*)'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::io::CodedInputStream::ReadVarint32Fallback(unsigned int)'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::internal::InitSCCImpl(google::protobuf::internal::SCCInfoBase*)'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::internal::RegisterAllTypes(google::protobuf::Metadata const*, int)'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::Message::SpaceUsedLong() const'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::io::CodedInputStream::SkipFallback(int, int)'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm//libhome//libabb_libegm.soejbkdb:/ sandingundefined/ catkin_wsreference/ develto/ .`privategoogle/:abb_libegm:/protobuflib:/:libabb_libegm.soio:: :undefinedCodedInputStream :reference: ReadVarintSizeAsIntFallbackto( )`'google
+:/:homeprotobuf/:ejbkdb:/internalsanding:/:catkin_wsArenaImpl/:devel:/AllocateAlignedAndAddCleanup.(privateunsigned/ abb_libegmlong/,lib /voidlibabb_libegm.so :( *undefined) (referencevoid *to) )`'google
+:/:homeprotobuf/:ejbkdb:/iosanding:/:catkin_wsCodedInputStream/:devel:/ReadTagFallback.(privateunsigned/ abb_libegmint/)lib'/
+libabb_libegm.so/:home /undefinedejbkdb /referencesanding /tocatkin_ws /`develgoogle/:.:privateprotobuf/:abb_libegm:/iolib:/:libabb_libegm.soCodedInputStream:: :undefinedDecrementRecursionDepthAndPopLimit (referenceint )to' 
+`/googlehome:/:ejbkdbprotobuf/:sanding:/internalcatkin_ws:/:develOnShutdownRun/(.voidprivate /(abb_libegm*/)lib(/voidlibabb_libegm.so :const *undefined) ,reference  voidto  const`*google):':
+protobuf/:home:/internalejbkdb:/:sandingAssignDescriptors/(catkin_wsstd/:devel:/__cxx11.:private:/basic_stringabb_libegm</charlib,/ libabb_libegm.sostd:: :undefinedchar_traits <referencechar >to,  `stdgoogle::::allocatorprotobuf<:char:>internal :>: RepeatedPtrFieldBaseconst:&:,InternalExtend (googleint:):'protobuf
+::internal::MigrationSchema const*, google::protobuf::Message collect2: error: ld returned 1 exit status
+const* const*, unsigned int const*, google::protobuf::Metadata*, google::protobuf::EnumDescriptor const**, google::protobuf::ServiceDescriptor const**)'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::io::CodedInputStream::ReadVarint64Fallback()'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::UnknownFieldSet::default_instance()'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::io::CodedInputStream::IncrementRecursionDepthAndPushLimit(int)'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::internal::DestroyMessage(void const*)'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::io::CodedInputStream::ReadVarint32Fallback(unsigned int)'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::internal::InitSCCImpl(google::protobuf::internal::SCCInfoBase*)'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::internal::RegisterAllTypes(google::protobuf::Metadata const*, int)'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::Message::SpaceUsedLong() const'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::io::CodedInputStream::SkipFallback(int, int)'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::Arena::OnArenaAllocation(std::type_info const*, unsigned long) const'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::internal::ArenaImpl::AllocateAligned(unsigned long)'
+/make[2]: *** [/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm_samples/lib/abb_libegm_samples/a1_joint_trajectory_node] Error 1
+home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::io::CodedInputStream::ReadVarintSizeAsIntFallback()'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::io::CodedInputStream::ReadTagFallback(unsigned int)'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/make[1]: *** [CMakeFiles/abb_libegm_samples_joint_trajectory_node.dir/all] Error 2
+libabb_libegm.so: undefined reference to `google::protobufmake[1]: *** Waiting for unfinished jobs....
+::internal::OnShutdownRun(void (*)(void const*), void const*)'
+/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm/lib/libabb_libegm.so: undefined reference to `google::protobuf::internal::RepeatedPtrFieldBase::InternalExtend(int)'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/ejbkdb/sanding/catkin_ws/devel/.private/abb_libegm_samples/lib/abb_libegm_samples/a2_pose_trajectory_node] Error 1
+make[1]: *** [CMakeFiles/abb_libegm_samples_pose_trajectory_node.dir/all] Error 2
+make: *** [all] Error 2
+cd /home/ejbkdb/sanding/catkin_ws/build/abb_libegm_samples; catkin build --get-env abb_libegm_samples | catkin env -si  /usr/bin/make --jobserver-fds=6,7 -j; cd -
